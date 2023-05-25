@@ -4,7 +4,7 @@ This will be very vital for blogs and other projects tha follow repetitive patte
 
 
 
- html,body {
+body {
     margin: 5PX auto;
 }
 
@@ -12,6 +12,7 @@ header {
     text-align: center;
     padding: 2%;
     color: blue;
+    margin-bottom: -80px;
 }
 main {
         display: grid;
@@ -19,7 +20,7 @@ main {
         gap: 3%;
         box-sizing: border-box;
         height: fit-content;
-        padding: 100px 3%;
+        padding: 100px 3% 100px;
 }
 
 .box{

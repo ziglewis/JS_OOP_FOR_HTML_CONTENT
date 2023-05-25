@@ -5,26 +5,26 @@ let mother = document.querySelector("main")
 console.log(mother)
 
 let section4 = [
-                { name: "Ada....1",
+                { name: "ADA....1",
                   quote: "I am a child of God",
-                  Prayer: "I will never let you go unless you bless me"
+                  Prayer: "I will never let you go unless you bless me dear Father."
                   },
-                  { name: "Obi...2",
-                  quote: "I am a man of God all my life",
-                  Prayer: "I will never let God go no matter what happens unless He bless me"
+                  { name: "OBI...2",
+                  quote: "I am a man whom mercy said no",
+                  Prayer: "I will never loose faith in God, no matter what comes my way or not."
                   },
                   { name: "AGU...3",
-                  quote: "I am a real child of God indeed",
-                  Prayer: "Oh Lord that thou mayest enlarge my coast"
+                  quote: "I am living by faith and faith alone",
+                  Prayer: "Oh Lord that thou mayest enlarge my coast and bless me indeed."
                   }, 
 
-                  { name: "Jay...4",
-                  quote: "I am a real child of God indeed",
-                  Prayer: "Oh Lord that thou mayest enlarge my coast"
+                  { name: "MMA...4",
+                  quote: "I am only saved by grace",
+                  Prayer: "When the role is called up yonder, may I be there."
                   },
                   { name: "EDU...5",
-                  quote: "I am a real child of God indeed",
-                  Prayer: "Oh Lord that thou mayest enlarge my coast"
+                  quote: "I am born to be a blessing",
+                  Prayer: "Oh to be like thee, precious Redeemer, everyday."
                   },  
                 ]
                     
