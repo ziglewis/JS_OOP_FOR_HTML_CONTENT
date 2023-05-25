@@ -8,8 +8,11 @@ This will be very vital for blogs and other projects tha follow repetitive patte
     margin: 5PX auto;
 }
 
-
-
+header {
+    text-align: center;
+    padding: 2%;
+    color: blue;
+}
 main {
         display: grid;
         grid-template-columns: auto auto auto;
