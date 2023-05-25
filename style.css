@@ -6,9 +6,9 @@ This will be very vital for blogs and other projects tha follow repetitive patte
 
  html,body {
     margin: 5PX auto;
-    flex-wrap: wrap ;
-    
 }
+
+
 
 main {
         display: grid;
