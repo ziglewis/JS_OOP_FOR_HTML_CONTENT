@@ -1,0 +1,72 @@
+/* I wanted to see how i can use DOM manipulation along with object oriented programming to create html contents.
+This will be very vital for blogs and other projects tha follow repetitive patterns like your Periodic table,
+ where you had to type out all your elements and their atomic numbers and ended up having som many DIVS in the html */
+
+
+
+ html,body {
+    margin: 5PX auto;
+    flex-wrap: wrap ;
+    border: 4px solid black;
+}
+
+main {
+        border: 4px solid red;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 3%;
+        box-sizing: border-box;
+        height: fit-content;
+        padding: 100px 3%;
+
+    /* flex-direction:row-reverse; */
+   
+
+}
+.box{
+    border: 4px solid blue;
+     width: 100%;
+    
+    height: 320px;
+    padding: 10px auto;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.box:hover{
+    background-color: greenyellow ;
+}
+
+@media ( max-width: 900px) {
+    
+    main {
+        
+
+        grid-template-columns: auto auto;
+        padding: 100px 2%;
+        
+    }
+
+    .box{
+        border: 4px solid goldenrod;
+    }
+    
+    
+
+}
+
+@media ( max-width: 650px) {
+
+       
+    main {
+        grid-template-columns: auto;   
+        padding: 100px 2% 400px; 
+    
+    }
+    .box{
+        border: 4px solid lime;
+    }
+    
+
+}
