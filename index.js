@@ -1,10 +1,17 @@
 
 
-let mother = document.querySelector("main")
 
-console.log(mother)
+let myHeaderSection = document.querySelector("header")
+let myMainSection = document.querySelector("main")
 
-let section4 = [
+// console.log(myMainSection)
+
+
+myHeaderSection.innerHTML =  `
+                              <h1> <i>USING JS OBJECT LOOPING TO GENERATE INNER HTML CONTENT (BY: ZIGLEWIS)</i></h1>
+                              `
+
+let persons = [
                 { name: "ADA....1",
                   quote: "I am a child of God",
                   Prayer: "I will never let you go unless you bless me dear Father."
@@ -28,21 +35,21 @@ let section4 = [
                   },  
                 ]
                     
-                   let display = data => {
+                   let getPersonsInformation = data => {
                         
                        let  answer= `<div class="box">
                             <h1> ${data.name} </h1>
                             <p> ${data.quote} </p>
                             <br>
-                            <h2> <a href="https://bard.google.com/" target= "_blank"> ${data.Prayer} </a></h2>
+                            <h2> <a href="https://github.com/ziglewis/JS_OOP_FOR_HTML_CONTENT" target= "_blank"> ${data.Prayer} </a></h2>
                             <p> <i> Thank you! </i> </p>  
                             
                             </div> `
 
                     //  console.log(answer)
-                     mother.innerHTML += answer
+                     myMainSection.innerHTML += answer
                     }
                     
-                  section4.forEach(display)
+                  persons.forEach(getPersonsInformation)
                   
-                //   mother.innerHTML += section4.forEach(display)
+                //   myMainSection.innerHTML += persons.forEach(getPersonsInformation)
